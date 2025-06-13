@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=60", "wheel", "pybind11>=2.10.0", "cmake"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyminitorch"
+version = "0.1.0"
+description = "A PyTorch reimplementation in CUDA/C++ for educational purposes"
+authors = [
+    {name = "MiniTorch Team", email = "minitorch@example.com"}
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "pybind11>=2.10.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black",
+    "isort",
+    "mypy"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black" 

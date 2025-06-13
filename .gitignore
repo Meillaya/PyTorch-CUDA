@@ -1,0 +1,122 @@
+uv.lock
+
+# Build directories
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# C++ compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# CUDA compiled files
+*.ptx
+*.cubin
+*.fatbin
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling data
+*.prof
+
+# NVIDIA Nsight files
+*.nvprof
+*.nvvp
+
+# Core dumps
+core
+core.*
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# GPU cache
+.nv_cache/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates 
