@@ -1,5 +1,6 @@
 uv.lock
 .cursorindexingignore
+.specstory/
 # Build directories
 build/
 dist/

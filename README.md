@@ -59,16 +59,9 @@ MiniTorch/
 git clone <your-repo-url>
 cd PyTorch-CUDA
 
-# Create build directory
-mkdir build && cd build
+# Run the setup script
+./build.sh
 
-# Configure and build
-cmake ..
-make -j$(nproc)
-
-# Install Python package (using uv)
-cd ..
-uv pip install -e .
 ```
 
 ### Usage Example
