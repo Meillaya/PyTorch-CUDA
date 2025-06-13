@@ -2,14 +2,14 @@
 
 A educational reimplementation of PyTorch's core functionality using pure CUDA and C++. This project aims to provide deep insights into PyTorch's internal workings by building tensor operations, automatic differentiation, and neural network layers from the ground up.
 
-## 🎯 Project Goals
+## Project Goals
 
 - **Educational**: Understand PyTorch internals through hands-on implementation
 - **Performance**: Leverage CUDA for GPU-accelerated tensor operations  
 - **Completeness**: Implement core features including autograd, neural networks, and optimizers
 - **Clean Architecture**: Well-structured, readable C++/CUDA codebase
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 MiniTorch/
@@ -26,7 +26,7 @@ MiniTorch/
 └── tests/             # Unit tests
 ```
 
-## ⚡ Key Features
+## Key Features
 
 ### Tensor Operations
 - **Multi-device support**: CPU and CUDA tensors
@@ -44,7 +44,7 @@ MiniTorch/
 - **Loss functions**: MSE, Cross-entropy loss
 - **Optimizers**: SGD, Adam with momentum and weight decay
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - CUDA Toolkit (11.0+)
@@ -95,14 +95,14 @@ loss.backward()
 print("Gradient of a:", a.grad)
 ```
 
-## 📚 Learning Path
+## Learning Path
 
 1. **Tensor Basics**: Start with `examples/simple_example.py`
 2. **Neural Networks**: Explore `examples/neural_network.py`
 3. **CUDA Kernels**: Study `src/cuda_kernels.cu` for GPU implementations
 4. **Autograd System**: Examine gradient computation in `src/tensor.cpp`
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run C++ tests
@@ -112,7 +112,7 @@ cd build && make test
 python -m pytest tests/
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project - contributions and improvements are welcome! Please:
 1. Fork the repository
@@ -121,16 +121,9 @@ This is an educational project - contributions and improvements are welcome! Ple
 4. Add tests
 5. Submit a pull request
 
-## 📖 Resources
+## Resources
 
 - [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
 - [PyTorch Internals](http://blog.ezyang.com/2019/05/pytorch-internals/)
 - [Automatic Differentiation](https://rufflewind.com/2016-12-30/reverse-mode-automatic-differentiation)
 
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
----
-
-*Built with ❤️ for deep learning education* 
